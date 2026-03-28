@@ -13,6 +13,8 @@
 <script src="data/pets2.js"></script>
 <script src="data/pets3.js"></script>
 <script src="data/pets4.js"></script>
+<script src="data/pets5.js"></script>
+<script src="data/pets6.js"></script>
 
 <div class="page-container">
   <button class="back-btn" onclick="history.back()">← 返回图鉴</button>
@@ -20,7 +22,7 @@
 </div>
 
 <script>
-const petList = [...petList1, ...petList2, ...petList3, ...petList4];
+const petList = [...petList1, ...petList2, ...petList3, ...petList4, ...petList5, ...petList6];
 const params = new URLSearchParams(location.search);
 const id = parseInt(params.get("id"));
 const pet = petList.find(p => p.id === id);
@@ -76,13 +78,14 @@ if (pet) {
       <div class="skills-grid">
           ${(pet.skills || []).map(s => `
             <div class="skill-item" style="display:flex; align-items:center; gap:10px;">
-              <img src="public/skills/${s.type}/${s.name}.png" class="skill-icon">
+              <img src="public/skills/${s.element}/${s.name}.png" class="skill-icon">
               <div class="skill-info">
                 <div class="skill-name">${s.name}</div>
                 ${s.desc ? `<div style="font-size:13px;color:#ccc;margin-top:4px;">${s.desc}</div>` : ''}
                 <div class="skill-desc" style="display:flex; gap:12px; margin-top:4px;">
-                  <span>属性：${s.type || '-'}</span>
+                  <span>属性：${s.element || '-'}</span>
                   <span>威力：${s.power || '0'}</span>
+                  <span>类型：${s.type || '-'}</span>
                   <span>能量消耗：${s.cost || '0'} </span>
                 </div>                
               </div>
