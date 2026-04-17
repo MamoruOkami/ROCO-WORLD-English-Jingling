@@ -1,18 +1,19 @@
-# 洛克王国宠物图鉴
+# Roco Kingdom Jingling Dex
 
-一个基于 HTML + CSS + JavaScript 实现的洛克王国宠物图鉴工具，支持宠物浏览、属性筛选、宠物详情查看等功能。
+A Roco Kingdom pet encyclopedia tool built with HTML + CSS + JavaScript, supporting pet browsing, attribute filtering, and detailed pet information viewing.
 
-## 功能介绍
+## Features
+Jingling list display
+Type filtering (Fire, Water, Grass, Electric, Wing, Fighting, Poison, Earth, Cute, Dragon, Dark, Mechanical, etc.)
+Jingling info (base stats, traits, skills, power, cost)
+Responsive layout, compatible with both desktop and mobile devices
+Automatic matching of skill icons, trait icons, and attribute icons
 
-- 宠物列表展示
-- 属性筛选（火、水、草、电、翼、武、毒、土、萌、龙、恶魔、机械等）
-- 宠物详情页（种族值、特性、技能、威力、消耗）
-- 响应式布局，适配电脑与手机端
-- 技能图标、特性图标、属性图标自动匹配
+## Copyright Notice
 
-## 版权声明
-
-© 2026 洛克王国宠物图鉴 Developed by @HackerLion03
-- 本项目部分数据与内容引用自 B站洛克王国Wiki https://wiki.biligame.com/rocom/, 其版权归哔哩哔哩游戏wiki所有。
-- 洛克王国游戏及相关IP版权归腾讯公司所有。
-- 本项目仅用于学习交流，非官方应用，无任何商业用途。
+© 2026 Roco Kingdom Jingling Encyclopedia Developed by @HackerLion03
+- Translated by the ROCO WORLD Community
+- Some data and content in this project are sourced from the Bilibili Rock Kingdom Wiki: https://wiki.biligame.com/rocom/
+, with copyrights belonging to Bilibili Game Wiki.
+- The Roco Kingdom game and related IP are owned by Tencent.
+- This project is for learning and communication purposes only, is not an official application, and has no commercial use.
